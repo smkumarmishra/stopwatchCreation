@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stop-watch</title>
+   <link rel="stylesheet" href="../style/stopwatch.css">
+</head>
+<body>
+    <div class="main-container">
+       <div class="row">
+      <center>  <h1><span> S</span>top<span>W</span>atch</h1></center>
+        
+        <div class="display-Area">
+          <center><h1><span id="display"> 0 0 : 0 0 :0 0 </span></h1></center>
+  
+        </div>
+        <!-- button -->
+         
+         <div class="button-container">
+          <span><button onclick="clickPlay()" id="play">PLAY</button></span>
+          <span><button onclick="clickPush()" id="push">PUSH</button></span>
+          <span><button onclick="clickReset()" id="reset">RESET</button></span>
+          <span><button onclick="lap()" id="lap">Lap</button></span>
+          
+           
+          
+         </div>
+        <div id="list-container"><ul id="laps"></ul> </div>
+         <!-- msg -->
+          <div class="msg" id="msg"></div>
+  
+       </div>
+    </div>
+   <script src="../src/stopwatch.js"></script>
+</body>
+</html>

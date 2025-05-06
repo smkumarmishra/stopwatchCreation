@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+    background-color: aquamarine;
+    margin-top: 40px;
+}
+.main-container{
+    background-color: black;
+    color: white;
+   
+    height: 570px;
+    width: 350px;
+    border: 4px solid gray;
+    padding: 20px;
+}
+.display-Area{
+    
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border: 2px solid yellowgreen;
+    border-radius: 60px;
+    /* display: grid;
+    grid-template-columns: 3px 3px 3px; */
+    color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 2px 5px 7px gray;
+
+   
+}
+#display{
+    margin: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: cursive;
+    text-shadow: 2px 3px 5px gray;
+    text-align: center;
+   
+}
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    
+   /* padding-top: 40px; */
+   margin-top: 40px;
+}
+.button-container span button{
+    padding: 10px;
+    font-size:17px ;
+    font-family: cursive;
+    font-weight: 300;
+    background-color: gray;
+   
+}
+.row{
+    display: grid;
+    grid-template-rows: 3fr 3fr 3fr 3fr;
+    grid-gap: 40px;
+
+}
+h1{
+    padding-top:10px ;
+}
+h1 span{
+    color: green;
+   
+}
+#play{
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    border-radius:18px ;
+    width: 70px;
+}
+#push{
+    background-color: red;
+    color: white;
+    border: 2px solid white;
+    border-radius:18px ;
+    width: 70px;
+   
+}
+#reset{
+    background-color:yellowgreen;
+    color: white;
+    border: 2px solid white;
+    border-radius:18px ;
+    width: 70px;
+}
+#lap{
+    background-color:orange;
+    color: white;
+    border: 2px solid white;
+    border-radius:18px ;
+    width: 70px;
+  
+}
+#list-container{
+    background-color: gainsboro;
+    color: black;
+    margin: auto;
+    padding: 2px;
+    width: 330px;
+    height: 60px;
+    border: 1px solid gray;
+    overflow: auto;
+    display: none;
+    box-shadow: 2px 5px 7px gray;
+}
+#list-container ::-webkit-scrollbar-track {
+    background: red;
+}
+
+.msg
+{
+    background-color: white;
+    width: 100%;
+    height: 40px;
+ 
+    /* padding: 2px; */
+    border: 1px solid green;
+    border-radius:10px ;
+    font-weight: 400;
+    font-family: cursive;
+    box-shadow: 2px 3px 4px gray;
+    color: black;
+    text-align: center;
+    display: none;
+    box-shadow: 2px 5px 7px gray;
+
+}
